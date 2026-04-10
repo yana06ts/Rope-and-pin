@@ -963,12 +963,6 @@ export default function Game() {
                 )}
               </svg>
 
-              {/* Inventory Bar Background */}
-              {level.id === 3 && inventoryNails.length > 0 && (
-                <div className="absolute bottom-0 left-0 right-0 h-32 bg-black/40 backdrop-blur-md border-t border-white/10 z-10 pointer-events-none" />
-              )}
-
-
               {/* Win Overlay */}
               <AnimatePresence>
                 {isWin && (
