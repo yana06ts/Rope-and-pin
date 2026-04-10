@@ -1,0 +1,5 @@
+{
+  "name": "Rope&Pin",
+  "description": "A puzzle game where you move nails to shape a rope shadow to match a target silhouette.",
+  "requestFramePermissions": []
+}
